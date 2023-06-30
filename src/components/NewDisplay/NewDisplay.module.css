@@ -1,0 +1,29 @@
+.display {
+    min-width: 500px;
+}
+
+.display ul {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+    background-color: white;
+    text-align: left;
+    border-radius: 15px;
+}
+
+
+.display li {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 5px 30px;
+}
+
+.display li span {
+    color: grey;
+    cursor: pointer;
+
+}

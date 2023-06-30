@@ -1,0 +1,43 @@
+.form {
+    min-width: 500px;
+}
+
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    text-align: left;
+    border-radius: 15px;
+
+}
+
+.form label {
+    color: black;
+    margin-bottom: 5px;
+}
+
+.form input {
+    margin-bottom: 20px;
+}
+
+.form button {
+    max-width: 30%;
+    border: 1px solid #174acc;
+    background: #174acc;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+}
+
+
+.form button:hover,
+.form button:active {
+    background: #426edc;
+    border-color: #426edc;
+}
+
+.form button:focus {
+    outline: none;
+}
